@@ -1,0 +1,10 @@
+E:\R2modman Mods\GTFO\profiles\Kegantu Rundown\BepInEx\plugins\ExtraChainedPuzzleFeatures\ExtraChainedPuzzleFeatures.deps.json
+E:\R2modman Mods\GTFO\profiles\Kegantu Rundown\BepInEx\plugins\ExtraChainedPuzzleFeatures\ExtraChainedPuzzleFeatures.dll
+E:\C# Projects\ExtraChainedPuzzleFeatures\ExtraChainedPuzzleFeatures\obj\Release\ExtraChainedPuzzleFeatures.csproj.AssemblyReference.cache
+E:\C# Projects\ExtraChainedPuzzleFeatures\ExtraChainedPuzzleFeatures\obj\Release\ExtraChainedPuzzleFeatures.GeneratedMSBuildEditorConfig.editorconfig
+E:\C# Projects\ExtraChainedPuzzleFeatures\ExtraChainedPuzzleFeatures\obj\Release\ExtraChainedPuzzleFeatures.AssemblyInfoInputs.cache
+E:\C# Projects\ExtraChainedPuzzleFeatures\ExtraChainedPuzzleFeatures\obj\Release\ExtraChainedPuzzleFeatures.AssemblyInfo.cs
+E:\C# Projects\ExtraChainedPuzzleFeatures\ExtraChainedPuzzleFeatures\obj\Release\ExtraChainedPuzzleFeatures.csproj.CoreCompileInputs.cache
+E:\C# Projects\ExtraChainedPuzzleFeatures\ExtraChainedPuzzleFeatures\obj\Release\ExtraChainedPuzzleFeatures.dll
+E:\C# Projects\ExtraChainedPuzzleFeatures\ExtraChainedPuzzleFeatures\obj\Release\refint\ExtraChainedPuzzleFeatures.dll
+E:\C# Projects\ExtraChainedPuzzleFeatures\ExtraChainedPuzzleFeatures\obj\Release\ref\ExtraChainedPuzzleFeatures.dll

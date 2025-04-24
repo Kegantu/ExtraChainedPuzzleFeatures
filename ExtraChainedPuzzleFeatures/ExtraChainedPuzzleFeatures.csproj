@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <Profile>Kegantu Rundown</Profile>
+        <TargetFramework>net6.0</TargetFramework>
+        <RootNamespace>ExtraChainedPuzzleFeatures</RootNamespace>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <DebugType>None</DebugType>
+        <BepInEx>E:\R2modman Mods\GTFO\profiles\$(Profile)\BepInEx</BepInEx>
+        <PluginsFolder>$(BepInEx)\plugins</PluginsFolder>
+        <BuildDirectory>$(BepInEx)\plugins\$(SolutionName)\</BuildDirectory>
+        <OutputPath>$(BuildDirectory)</OutputPath>
+        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    </PropertyGroup>
+    <Target Name="PostBuild" BeforeTargets="PostBuildEvent">
+        <Delete Files="$(OutputPath)$(AssemblyName).deps.json" />
+    </Target>
+    <ItemGroup>
+        <Reference Include="$(PluginsFolder)/GTFO-API.dll" Private="false" />
+        <Reference Include="$(PluginsFolder)\dakkhuza-MTFO\MTFO.dll" Private="false" />
+        <Reference Include="$(BepInEx)\core\0Harmony.dll" Private="false" />
+        <Reference Include="$(BepInEx)\core\BepInEx.Core.dll" Private="false" />
+        <Reference Include="$(BepInEx)\core\BepInEx.Unity.IL2CPP.dll" Private="false" />
+        <Reference Include="$(BepInEx)\core\Il2CppInterop.Common.dll" Private="false" />
+        <Reference Include="$(BepInEx)\core\Il2CppInterop.Runtime.dll" Private="false" />
+        <Reference Include="$(BepInEx)\interop\*.dll" Private="false" />
+        <Reference Remove="$(BepInEx)\interop\netstandard.dll" />
+    </ItemGroup>
+
+</Project>
