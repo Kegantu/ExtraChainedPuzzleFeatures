@@ -24,7 +24,7 @@ public class ExtraChainedPuzzleSettings
     
     public class TimedBioscan
     {
-        public uint BioscanInstanceIndex { get; set; }
+        public uint LocalIndex { get; set; }
         
         public int TimeLeft { get; set; } = 60;
 

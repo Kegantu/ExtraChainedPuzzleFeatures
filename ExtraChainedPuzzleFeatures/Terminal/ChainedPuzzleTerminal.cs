@@ -81,8 +81,6 @@ public class ChainedPuzzleTerminal : MonoBehaviour
             return;
         }
         
-        //interpreter.AddOutput(TerminalLineType.ProgressWait, "Wait", 5f);
-        
         var playerScanner = bioscan.GetComponent<CP_PlayerScanner>();
         
         playerScanner.m_reduceWhenNoPlayer = true;

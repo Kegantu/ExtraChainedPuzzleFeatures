@@ -78,7 +78,7 @@ public class Main : BasePlugin
             Dictionary<uint, ExtraChainedPuzzleSettings.TimedBioscan> chainedPuzzleInstanceToOverride = new();
             foreach(var puzzleToOverride in puzzleOverrideConfig.TimedBioscans)
             {
-                chainedPuzzleInstanceToOverride.TryAdd(puzzleToOverride.BioscanInstanceIndex, puzzleToOverride);
+                chainedPuzzleInstanceToOverride.TryAdd(puzzleToOverride.LocalIndex, puzzleToOverride);
             }
 
             _timedBioscans.Add(puzzleOverrideConfig.MainLevelLayout, chainedPuzzleInstanceToOverride);

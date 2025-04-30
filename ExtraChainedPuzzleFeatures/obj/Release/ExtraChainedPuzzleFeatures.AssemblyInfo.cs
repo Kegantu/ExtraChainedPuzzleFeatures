@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ExtraChainedPuzzleFeatures")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+965f17e294591390fe318f4ec61baee903b9b2f1")]
 [assembly: System.Reflection.AssemblyProductAttribute("ExtraChainedPuzzleFeatures")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ExtraChainedPuzzleFeatures")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
